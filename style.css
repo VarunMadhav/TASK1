@@ -1,0 +1,124 @@
+.header {
+  position: relative;
+  background-color: rgb(126, 196, 221);
+  color: rgb(18, 18, 18);
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: right;
+}
+
+.maintitle {
+  font-weight: 500;
+  text-shadow: #44444b;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkgoldenrod;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(218, 196, 70);
+  font-size: 50px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.headone {
+  font-size: 20px;
+  color: rgb(14, 14, 15);
+  background-color: rgb(236, 244, 247);
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  background-size: 30px, 50px;
+  transition: all 0.3s ease;
+}
+
+.aboutus {
+  color: #151514;
+  background-image: url("image2.jpg");
+  background-size: 500px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+.course {
+  padding: 40px;
+}
+.register {
+  margin-right: 80px;
+  border-radius: 0.8rem;
+  font-family: "Lucida Sans";
+  font-weight: 600;
+  box-sizing: border-box;
+  color: rgb(13, 13, 13);
+  padding: 40px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  padding: 10px;
+}
+.footcontainer {
+  max-width: 100%;
+  background-color: #44444b;
+  margin: auto;
+}
+
+.footer-col {
+  width: 50%;
+  padding: 0 5px;
+}
+
+.footer-col h2 {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 800;
+  position: relative;
+}
+#parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+}
+.box {
+  border-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  border-width: 1px;
+  width: 100%;
+  height: 300px;
+  float: left;
+  border-radius: 0.6rem;
+  background-color: rgb(31, 78, 129);
+}
+.footer-col h2::before {
+  content: "";
+  left: 0;
+  bottom: -10px;
+  background-color: #9e951b;
+  position: absolute;
+  height: 2px;
+  box-sizing: border-box;
+  width: 200px;
+}
+.footer-col ul li {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.footer-col ul li:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
